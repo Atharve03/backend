@@ -6,7 +6,7 @@ const {
   createTeam,
   updateTeam,
   deleteTeam
-} = require('../controllers/teamsController');
+} = require('../controllers/teamscontroller');
 const { protect, authorize } = require('../middleware/auth.middleware');
 
 router.route('/')
